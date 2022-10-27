@@ -150,7 +150,7 @@ namespace StudyEnglish
 
         }
 
-        private static void MakeLetterSound(string letter)
+        private void MakeLetterSound(string letter)
         {
             UnmanagedMemoryStream sound = (UnmanagedMemoryStream)Properties.Resources.ResourceManager.GetStream(letter);
             MemoryStream ms = new MemoryStream(StreamToBytes(sound));
@@ -160,6 +160,8 @@ namespace StudyEnglish
             // output.PlaybackStopped += new EventHandler<StoppedEventArgs>(Media_Ended);
             output.Init(ws);
             output.Play();
+
+            pictureBoxHebrewLetter.Image = (Image)Properties.Resources.ResourceManager.GetObject(letter +"_h");
         }
 
         private void radioButtonTest_CheckedChanged(object sender, EventArgs e)

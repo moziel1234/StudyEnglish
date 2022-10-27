@@ -288,5 +288,83 @@
   <ItemGroup>
     <None Include="Resources\YouGotThis.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\A_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\B_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\C_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\D_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\E_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\F_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\G_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\H_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\I_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\J_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\K_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\L_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\M_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\N_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\O_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\P_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\Q_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\R_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\S_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\T_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\U_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\V_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\W_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\X_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\Y_h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HebrewLetters\Z_h.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

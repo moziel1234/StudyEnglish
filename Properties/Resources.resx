@@ -286,4 +286,82 @@
   <data name="YouGotThis" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\YouGotThis.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="A_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\A_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\B_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\C_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\D_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="E_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\E_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\F_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\G_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\H_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="I_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\I_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="J_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\J_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\K_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L_h1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\L_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\M_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\N_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="O_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\O_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\P_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Q_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\Q_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\R_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\S_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\T_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="U_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\U_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\V_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="W_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\W_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\X_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Y_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\Y_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Z_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HebrewLetters\Z_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

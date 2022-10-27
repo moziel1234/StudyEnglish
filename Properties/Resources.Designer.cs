@@ -70,11 +70,31 @@ namespace StudyEnglish.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap A_h {
+            get {
+                object obj = ResourceManager.GetObject("A_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream B {
             get {
                 return ResourceManager.GetStream("B", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap B_h {
+            get {
+                object obj = ResourceManager.GetObject("B_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -88,6 +108,16 @@ namespace StudyEnglish.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap C_h {
+            get {
+                object obj = ResourceManager.GetObject("C_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream D {
@@ -97,11 +127,31 @@ namespace StudyEnglish.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap D_h {
+            get {
+                object obj = ResourceManager.GetObject("D_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream E {
             get {
                 return ResourceManager.GetStream("E", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap E_h {
+            get {
+                object obj = ResourceManager.GetObject("E_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -125,11 +175,31 @@ namespace StudyEnglish.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap F_h {
+            get {
+                object obj = ResourceManager.GetObject("F_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream G {
             get {
                 return ResourceManager.GetStream("G", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap G_h {
+            get {
+                object obj = ResourceManager.GetObject("G_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -143,11 +213,31 @@ namespace StudyEnglish.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap H_h {
+            get {
+                object obj = ResourceManager.GetObject("H_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream I {
             get {
                 return ResourceManager.GetStream("I", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap I_h {
+            get {
+                object obj = ResourceManager.GetObject("I_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -161,11 +251,31 @@ namespace StudyEnglish.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap J_h {
+            get {
+                object obj = ResourceManager.GetObject("J_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream K {
             get {
                 return ResourceManager.GetStream("K", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap K_h {
+            get {
+                object obj = ResourceManager.GetObject("K_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -254,6 +364,16 @@ namespace StudyEnglish.Properties {
         internal static System.Drawing.Bitmap L_h {
             get {
                 object obj = ResourceManager.GetObject("L_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap L_h1 {
+            get {
+                object obj = ResourceManager.GetObject("L_h1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -448,11 +568,31 @@ namespace StudyEnglish.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap M_h {
+            get {
+                object obj = ResourceManager.GetObject("M_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream N {
             get {
                 return ResourceManager.GetStream("N", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap N_h {
+            get {
+                object obj = ResourceManager.GetObject("N_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -466,11 +606,31 @@ namespace StudyEnglish.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap O_h {
+            get {
+                object obj = ResourceManager.GetObject("O_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream P {
             get {
                 return ResourceManager.GetStream("P", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap P_h {
+            get {
+                object obj = ResourceManager.GetObject("P_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -484,11 +644,31 @@ namespace StudyEnglish.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Q_h {
+            get {
+                object obj = ResourceManager.GetObject("Q_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream R {
             get {
                 return ResourceManager.GetStream("R", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap R_h {
+            get {
+                object obj = ResourceManager.GetObject("R_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -502,11 +682,31 @@ namespace StudyEnglish.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap S_h {
+            get {
+                object obj = ResourceManager.GetObject("S_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream T {
             get {
                 return ResourceManager.GetStream("T", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap T_h {
+            get {
+                object obj = ResourceManager.GetObject("T_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -520,11 +720,31 @@ namespace StudyEnglish.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap U_h {
+            get {
+                object obj = ResourceManager.GetObject("U_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream V {
             get {
                 return ResourceManager.GetStream("V", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap V_h {
+            get {
+                object obj = ResourceManager.GetObject("V_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -548,11 +768,31 @@ namespace StudyEnglish.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap W_h {
+            get {
+                object obj = ResourceManager.GetObject("W_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream X {
             get {
                 return ResourceManager.GetStream("X", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap X_h {
+            get {
+                object obj = ResourceManager.GetObject("X_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -578,6 +818,16 @@ namespace StudyEnglish.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Y_h {
+            get {
+                object obj = ResourceManager.GetObject("Y_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap YouGotThis {
             get {
                 object obj = ResourceManager.GetObject("YouGotThis", resourceCulture);
@@ -591,6 +841,16 @@ namespace StudyEnglish.Properties {
         internal static System.IO.UnmanagedMemoryStream Z {
             get {
                 return ResourceManager.GetStream("Z", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Z_h {
+            get {
+                object obj = ResourceManager.GetObject("Z_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }
