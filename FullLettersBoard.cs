@@ -122,7 +122,7 @@ namespace StudyEnglish
                     if (successesCont == endGameNum)
                         new FinalForm().ShowDialog();
                     letterForTest = RandomLetter();
-
+                    MakeLetterSound(letterForTest);
                     // add V animation
                 }
                 else
@@ -156,6 +156,9 @@ namespace StudyEnglish
             labelFailuresNum.Text = "0";
             labelSuccessNum.Text = "0";
             labelSucessNumCont.Text = "0";
+
+            letterForTest = RandomLetter();
+            MakeLetterSound(letterForTest);
         }
     }
 }
