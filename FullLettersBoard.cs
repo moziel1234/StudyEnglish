@@ -13,12 +13,13 @@ using System.Windows.Forms;
 
 namespace StudyEnglish
 {
-    public partial class Form1 : Form
+    public partial class FullLettersBoard : Form
     {
-        public Form1()
+        public FullLettersBoard()
         {
             InitializeComponent();
         }
+        int endGameNum = 5;
 
         string letterForTest = "";
         int successes = 0;
@@ -118,6 +119,8 @@ namespace StudyEnglish
                     successesCont += 1;
                     labelSuccessNum.Text = successes.ToString();
                     labelSucessNumCont.Text = successesCont.ToString();
+                    if (successesCont == endGameNum)
+                        new FinalForm().ShowDialog();
                     letterForTest = RandomLetter();
 
                     // add V animation

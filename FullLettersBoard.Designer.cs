@@ -1,7 +1,7 @@
 ﻿
 namespace StudyEnglish
 {
-    partial class Form1
+    partial class FullLettersBoard
     {
         /// <summary>
         /// Required designer variable.
