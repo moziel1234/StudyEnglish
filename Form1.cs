@@ -110,6 +110,26 @@ namespace StudyEnglish
             string letter = ((Char)(Convert.ToInt32((((PictureBox)sender).Name).Replace("pictureBox", "")) + 64)).ToString();
             if (radioButtonStudy.Checked)
                 MakeLetterSound(letter);
+            else
+            {
+                if (letter == letterForTest)
+                {
+                    successes += 1;
+                    successesCont += 1;
+                    labelSuccessNum.Text = successes.ToString();
+                    labelSucessNumCont.Text = successesCont.ToString();
+                    letterForTest = RandomLetter();
+
+                    // add V animation
+                }
+                else
+                {
+                    faileures += 1;
+                    successesCont = 0;
+                    labelFailuresNum.Text = faileures.ToString();
+                    labelSucessNumCont.Text = successesCont.ToString();
+                }
+            }
         }
 
         private static void MakeLetterSound(string letter)
@@ -122,6 +142,17 @@ namespace StudyEnglish
             // output.PlaybackStopped += new EventHandler<StoppedEventArgs>(Media_Ended);
             output.Init(ws);
             output.Play();
+        }
+
+        private void radioButtonTest_CheckedChanged(object sender, EventArgs e)
+        {
+            successes = 0;
+            successesCont = 0;
+            faileures = 0;
+
+            labelFailuresNum.Text = "0";
+            labelSuccessNum.Text = "0";
+            labelSucessNumCont.Text = "0";
         }
     }
 }
