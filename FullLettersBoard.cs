@@ -8,6 +8,7 @@ using System.IO;
 using System.Linq;
 using System.Media;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -19,7 +20,7 @@ namespace StudyEnglish
         {
             InitializeComponent();
         }
-        int endGameNum = 5;
+        int endGameNum = 20;
 
         string letterForTest = "";
         int successes = 0;
@@ -131,8 +132,22 @@ namespace StudyEnglish
                     successesCont = 0;
                     labelFailuresNum.Text = faileures.ToString();
                     labelSucessNumCont.Text = successesCont.ToString();
+                    runXAnimation((PictureBox)sender);
                 }
             }
+        }
+
+        private void runXAnimation(PictureBox p)
+        {
+            using (Graphics g = p.CreateGraphics())
+            {
+                Pen pen = new Pen(Color.Red, 10);
+                g.DrawLine(pen, 0, 0, p.Width, p.Height);
+                g.DrawLine(pen, p.Width, 0, 0, p.Height);
+            }
+            Thread.Sleep(500);
+            p.Refresh();
+
         }
 
         private static void MakeLetterSound(string letter)
