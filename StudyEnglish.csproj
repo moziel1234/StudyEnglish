@@ -270,5 +270,11 @@
   <ItemGroup>
     <None Include="Resources\audio-alphabet\Z.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v_icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

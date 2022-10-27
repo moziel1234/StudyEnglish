@@ -30,6 +30,14 @@ namespace StudyEnglish
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioButtonTest = new System.Windows.Forms.RadioButton();
+            this.radioButtonStudy = new System.Windows.Forms.RadioButton();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.labelFailuresNum = new System.Windows.Forms.Label();
+            this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxEar = new System.Windows.Forms.PictureBox();
             this.pictureBox26 = new System.Windows.Forms.PictureBox();
             this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
@@ -56,11 +64,15 @@ namespace StudyEnglish
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxEar = new System.Windows.Forms.PictureBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButtonStudy = new System.Windows.Forms.RadioButton();
-            this.radioButtonTest = new System.Windows.Forms.RadioButton();
+            this.labelSuccessNum = new System.Windows.Forms.Label();
+            this.labelSucessNumCont = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
@@ -87,8 +99,6 @@ namespace StudyEnglish
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEar)).BeginInit();
-            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -136,6 +146,106 @@ namespace StudyEnglish
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1096, 663);
             this.tableLayoutPanel1.TabIndex = 0;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.radioButtonTest);
+            this.groupBox1.Controls.Add(this.radioButtonStudy);
+            this.groupBox1.Location = new System.Drawing.Point(329, 26);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(286, 61);
+            this.groupBox1.TabIndex = 2;
+            this.groupBox1.TabStop = false;
+            // 
+            // radioButtonTest
+            // 
+            this.radioButtonTest.AutoSize = true;
+            this.radioButtonTest.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.radioButtonTest.Location = new System.Drawing.Point(150, 18);
+            this.radioButtonTest.Name = "radioButtonTest";
+            this.radioButtonTest.Size = new System.Drawing.Size(119, 33);
+            this.radioButtonTest.TabIndex = 1;
+            this.radioButtonTest.Text = "To Test";
+            this.radioButtonTest.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonStudy
+            // 
+            this.radioButtonStudy.AutoSize = true;
+            this.radioButtonStudy.Checked = true;
+            this.radioButtonStudy.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.radioButtonStudy.Location = new System.Drawing.Point(10, 18);
+            this.radioButtonStudy.Name = "radioButtonStudy";
+            this.radioButtonStudy.Size = new System.Drawing.Size(135, 33);
+            this.radioButtonStudy.TabIndex = 0;
+            this.radioButtonStudy.TabStop = true;
+            this.radioButtonStudy.Text = "To Study";
+            this.radioButtonStudy.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 6;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.Controls.Add(this.label2, 5, 0);
+            this.tableLayoutPanel2.Controls.Add(this.labelSucessNumCont, 4, 0);
+            this.tableLayoutPanel2.Controls.Add(this.labelSuccessNum, 3, 0);
+            this.tableLayoutPanel2.Controls.Add(this.pictureBox28, 2, 0);
+            this.tableLayoutPanel2.Controls.Add(this.pictureBox27, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.labelFailuresNum, 1, 0);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(636, 26);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(379, 60);
+            this.tableLayoutPanel2.TabIndex = 3;
+            // 
+            // labelFailuresNum
+            // 
+            this.labelFailuresNum.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelFailuresNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.labelFailuresNum.Location = new System.Drawing.Point(66, 0);
+            this.labelFailuresNum.Name = "labelFailuresNum";
+            this.labelFailuresNum.Size = new System.Drawing.Size(57, 60);
+            this.labelFailuresNum.TabIndex = 1;
+            this.labelFailuresNum.Text = "0";
+            this.labelFailuresNum.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox28
+            // 
+            this.pictureBox28.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox28.Image = global::StudyEnglish.Properties.Resources.v_icon;
+            this.pictureBox28.Location = new System.Drawing.Point(129, 3);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(57, 54);
+            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox28.TabIndex = 2;
+            this.pictureBox28.TabStop = false;
+            // 
+            // pictureBox27
+            // 
+            this.pictureBox27.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox27.Image = global::StudyEnglish.Properties.Resources.x_icon;
+            this.pictureBox27.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(57, 54);
+            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox27.TabIndex = 0;
+            this.pictureBox27.TabStop = false;
+            // 
+            // pictureBoxEar
+            // 
+            this.pictureBoxEar.Image = global::StudyEnglish.Properties.Resources.EarIcon;
+            this.pictureBoxEar.Location = new System.Drawing.Point(56, 102);
+            this.pictureBoxEar.Name = "pictureBoxEar";
+            this.pictureBoxEar.Size = new System.Drawing.Size(241, 326);
+            this.pictureBoxEar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxEar.TabIndex = 1;
+            this.pictureBoxEar.TabStop = false;
+            this.pictureBoxEar.Click += new System.EventHandler(this.pictureBoxEar_Click);
             // 
             // pictureBox26
             // 
@@ -501,56 +611,44 @@ namespace StudyEnglish
             this.pictureBox1.MouseEnter += new System.EventHandler(this.EnterImages);
             this.pictureBox1.MouseLeave += new System.EventHandler(this.LeaveImage);
             // 
-            // pictureBoxEar
+            // labelSuccessNum
             // 
-            this.pictureBoxEar.Image = global::StudyEnglish.Properties.Resources.EarIcon;
-            this.pictureBoxEar.Location = new System.Drawing.Point(56, 102);
-            this.pictureBoxEar.Name = "pictureBoxEar";
-            this.pictureBoxEar.Size = new System.Drawing.Size(241, 326);
-            this.pictureBoxEar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxEar.TabIndex = 1;
-            this.pictureBoxEar.TabStop = false;
-            this.pictureBoxEar.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.labelSuccessNum.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelSuccessNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.labelSuccessNum.Location = new System.Drawing.Point(192, 0);
+            this.labelSuccessNum.Name = "labelSuccessNum";
+            this.labelSuccessNum.Size = new System.Drawing.Size(57, 60);
+            this.labelSuccessNum.TabIndex = 3;
+            this.labelSuccessNum.Text = "0";
+            this.labelSuccessNum.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // groupBox1
+            // labelSucessNumCont
             // 
-            this.groupBox1.Controls.Add(this.radioButtonTest);
-            this.groupBox1.Controls.Add(this.radioButtonStudy);
-            this.groupBox1.Location = new System.Drawing.Point(329, 26);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(286, 61);
-            this.groupBox1.TabIndex = 2;
-            this.groupBox1.TabStop = false;
+            this.labelSucessNumCont.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelSucessNumCont.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.labelSucessNumCont.Location = new System.Drawing.Point(255, 0);
+            this.labelSucessNumCont.Name = "labelSucessNumCont";
+            this.labelSucessNumCont.Size = new System.Drawing.Size(57, 60);
+            this.labelSucessNumCont.TabIndex = 4;
+            this.labelSucessNumCont.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // radioButtonStudy
+            // label2
             // 
-            this.radioButtonStudy.AutoSize = true;
-            this.radioButtonStudy.Checked = true;
-            this.radioButtonStudy.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.radioButtonStudy.Location = new System.Drawing.Point(10, 18);
-            this.radioButtonStudy.Name = "radioButtonStudy";
-            this.radioButtonStudy.Size = new System.Drawing.Size(135, 33);
-            this.radioButtonStudy.TabIndex = 0;
-            this.radioButtonStudy.TabStop = true;
-            this.radioButtonStudy.Text = "To Study";
-            this.radioButtonStudy.UseVisualStyleBackColor = true;
-            // 
-            // radioButtonTest
-            // 
-            this.radioButtonTest.AutoSize = true;
-            this.radioButtonTest.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.radioButtonTest.Location = new System.Drawing.Point(150, 18);
-            this.radioButtonTest.Name = "radioButtonTest";
-            this.radioButtonTest.Size = new System.Drawing.Size(119, 33);
-            this.radioButtonTest.TabIndex = 1;
-            this.radioButtonTest.Text = "To Test";
-            this.radioButtonTest.UseVisualStyleBackColor = true;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.label2.Location = new System.Drawing.Point(318, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(58, 60);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "0";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1836, 792);
+            this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBoxEar);
             this.Controls.Add(this.tableLayoutPanel1);
@@ -558,6 +656,12 @@ namespace StudyEnglish
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
@@ -584,9 +688,6 @@ namespace StudyEnglish
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEar)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -624,6 +725,13 @@ namespace StudyEnglish
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton radioButtonTest;
         private System.Windows.Forms.RadioButton radioButtonStudy;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.PictureBox pictureBox27;
+        private System.Windows.Forms.PictureBox pictureBox28;
+        private System.Windows.Forms.Label labelFailuresNum;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelSucessNumCont;
+        private System.Windows.Forms.Label labelSuccessNum;
     }
 }
 

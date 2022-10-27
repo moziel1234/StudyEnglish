@@ -529,6 +529,16 @@ namespace StudyEnglish.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap v_icon {
+            get {
+                object obj = ResourceManager.GetObject("v_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream W {
@@ -543,6 +553,16 @@ namespace StudyEnglish.Properties {
         internal static System.IO.UnmanagedMemoryStream X {
             get {
                 return ResourceManager.GetStream("X", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap x_icon {
+            get {
+                object obj = ResourceManager.GetObject("x_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         

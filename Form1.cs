@@ -21,6 +21,9 @@ namespace StudyEnglish
         }
 
         string letterForTest = "";
+        int successes = 0;
+        int successesCont = 0;
+        int faileures = 0;
 
         public static string RandomLetter()
         {
@@ -44,9 +47,10 @@ namespace StudyEnglish
            // ((PictureBox)sender).BorderStyle = BorderStyle.None;
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void pictureBoxEar_Click(object sender, EventArgs e)
         {
-
+            if (radioButtonTest.Checked)
+                MakeLetterSound(letterForTest);
         }
 
         public static byte[] StreamToBytes(System.IO.Stream stream)
