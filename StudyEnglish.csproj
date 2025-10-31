@@ -343,28 +343,32 @@
     <None Include="Resources\HebrewLetters\R_h.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\HebrewLetters\S_h.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\HebrewLetters\T_h.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\HebrewLetters\U_h.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\HebrewLetters\V_h.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\HebrewLetters\W_h.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\HebrewLetters\X_h.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\HebrewLetters\Y_h.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\HebrewLetters\Z_h.PNG" />
+    <Content Include="Resources\EnglishSmallLetters\S_a.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_b.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_c.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_d.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_e.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_f.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_g.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_h.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_i.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_j.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_k.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_l.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_m.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_n.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_o.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_p.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_q.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_r.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_s.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_t.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_u.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_v.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_w.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_x.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_y.JPG" />
+    <Content Include="Resources\EnglishSmallLetters\S_z.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

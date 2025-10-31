@@ -364,4 +364,82 @@
   <data name="Z_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HebrewLetters\Z_h.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="S_a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_a.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_b.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_c.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_d.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_e.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_f.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_g.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_h1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_h.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_i.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_j" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_j.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_k.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_l.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_m.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_n.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_o.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_p.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_q" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_q.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_r.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_s.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_t" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_t.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_u" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_u.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_v" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_v.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_w" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_w.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_x.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_y" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_y.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnglishSmallLetters\S_z.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

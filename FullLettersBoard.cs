@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -51,7 +52,7 @@ namespace StudyEnglish
 
         private void pictureBoxEar_Click(object sender, EventArgs e)
         {
-            if (radioButtonTest.Checked)
+            if (radioButtonTestUpper.Checked)
                 MakeLetterSound(letterForTest);
         }
 
@@ -109,7 +110,7 @@ namespace StudyEnglish
 
         private void LetterClick(object sender, EventArgs e)
         {
-            string letter = ((Char)(Convert.ToInt32((((PictureBox)sender).Name).Replace("pictureBox", "")) + 64)).ToString();
+            string letter = (((PictureBox)sender).Name).Replace("pictureBoxL", "");
             if (radioButtonStudy.Checked)
                 MakeLetterSound(letter);
             else
@@ -164,6 +165,8 @@ namespace StudyEnglish
             pictureBoxHebrewLetter.Image = (Image)Properties.Resources.ResourceManager.GetObject(letter +"_h");
         }
 
+        
+
         private void radioButtonTest_CheckedChanged(object sender, EventArgs e)
         {
             successes = 0;
@@ -173,6 +176,34 @@ namespace StudyEnglish
             labelFailuresNum.Text = "0";
             labelSuccessNum.Text = "0";
             labelSucessNumCont.Text = "0";
+
+            foreach (Control control in tableLayoutPanel1.Controls)
+            {
+                if (control is PictureBox pictureBox && pictureBox.Image != null && 
+                    pictureBox.Name.Contains("pictureBoxL"))
+                {
+                    // Try to get the name of the current image (resource key)
+                    string newResourceName = "";
+                    string imageLetter = pictureBox.Name.Replace("pictureBoxL", "");
+                    if (radioButtonTestUpper.Checked)
+                        newResourceName = $"L_{imageLetter.ToLower()}";
+                    else if (radioButtonTestLower.Checked)
+                    {
+                        // todo: ugly walk around - fix by renameing correctly small letter to other initial
+                        // S_h can be hebrew 'ES' and also small S
+                        newResourceName = $"S_{imageLetter.ToLower()}";
+                        if (imageLetter.ToLower() == "h")
+                            newResourceName = "S_h1";
+                    }
+
+                    Image newImage = (Image)Properties.Resources.ResourceManager.GetObject(newResourceName);
+                    if (newImage != null)
+                    {
+                        pictureBox.Image = newImage;
+                    }
+                    
+                }
+            }
 
             letterForTest = RandomLetter();
             MakeLetterSound(letterForTest);
